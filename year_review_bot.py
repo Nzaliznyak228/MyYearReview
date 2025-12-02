@@ -12,7 +12,7 @@ from telegram.ext import (
 # УКАЖИТЕ СЮДА ДАННЫЕ ВАШЕГО БОТА:
 # ============================================
 BOT_TOKEN = "8534379117:AAHQ6iHykbjedmOXrHs6gJWSpghoznlRqkY"  # Получить от @BotFather в Telegram
-WEBAPP_URL = "https://nzaliznyak228.github.io/my-year-review/app.html"  # Замените на URL вашего веб-приложения
+WEBAPP_URL = "https://nzaliznyak228.github.io/MyYearReview/index.html"  # Замените на URL вашего веб-приложения
 # ============================================
 
 START_TEXT = (
