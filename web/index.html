@@ -1,8 +1,37 @@
-<!DOCTYPE html>
-<html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
-<title>Year Review</title></head>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Year Review — Итоги года</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
 <body>
-<h1>Your Year Review</h1>
-<div id='count'></div>
-<script src='script.js'></script>
-</body></html>
+    <div class="container">
+        <header>
+            <h1>✨ Итоги года</h1>
+            <p id="greet">Загрузка...</p>
+        </header>
+
+        <main class="card">
+            <div class="stat">
+                <div class="label">Раунд‑видео</div>
+                <div class="value" id="rounds">—</div>
+            </div>
+            <div class="stat">
+                <div class="label">Сообщений в боте</div>
+                <div class="value" id="messages">—</div>
+            </div>
+            <div class="stat">
+                <div class="label">Фото</div>
+                <div class="value" id="photos">—</div>
+            </div>
+            <button id="saveBtn">Сохранить картинку</button>
+        </main>
+
+        <footer>Сделано тобой — клон YearReview</footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
