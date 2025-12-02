@@ -31,7 +31,7 @@ def main() -> None:
     application = Application.builder().token(BOT_TOKEN).build()
 
     # Добавляем обработчик команды /start
-    application.add_handler(CommandHandler("startsss", start))
+    application.add_handler(CommandHandler("start", start))
 
     # Добавляем обработчик для всех текстовых сообщений
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
